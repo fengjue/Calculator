@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="text_style">
+
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:layout_columnWeight" tools:ignore="NewApi">1</item>
+        <item name="android:layout_rowWeight" tools:ignore="NewApi">1</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:layout_height">80dp</item>
+    </style>
+</resources>
